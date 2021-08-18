@@ -1,2 +1,68 @@
 @import '~bulma/bulma.sass';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+$orange: #FF9300;
+$light_blue: #A3ECF3;
+$sky_blue: #00BFD6;
+$black: #212121;
+
+.container{
+    width: 320px;
+    height: 409px;
+    margin: 30px auto;
+    padding: 0 15px;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.title {
+    font-size: 25px;
+    color: $light_blue;
+    text-align: center;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    font-size: 10px;
+    color: $orange;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #ff9300;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $orange;
+    color: $black;
+    font-size: 20px;
+}
+.button-env {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    width: 50%;
+    color: white;
+    background: $sky_blue;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px gray;
+  }
 

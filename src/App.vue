@@ -1,16 +1,20 @@
 <template lang="pug">
   #app
-    img(src="./assets/logo.png")
-    h1(class="title") Registro estación Platzi
-    form(action="/new_movie", method="POST")
-      p
-        |  Nombre
-        input(type="text", name="title", value="")
-        |  Apellido
-        input(type="text", name="year", value="")
-        |  Cargo
-        input(type="text", name="imdb", value="")
-      input(class="button-env" type="submit", value="Enviar")
+    div(class="container")
+      img(src="./assets/logo.png")
+      h1(class="title") Registro estación Platzi
+      form(action="/new_movie", method="POST")
+        |
+        label Nombre
+        input(type="text", name="Nombre", value="")
+        |
+        label Apellido
+        input(type="text", name="Apellido", value="")
+        |
+        label Cargo
+        input(type="text", name="Cargo", value="")
+        |
+        input(class="button-env" type="submit", value="ENVIAR")
 </template>
 
 <script>
